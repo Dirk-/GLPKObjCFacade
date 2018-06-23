@@ -15,5 +15,6 @@ FOUNDATION_EXPORT double GLPKObjCFacade_iOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char GLPKObjCFacade_iOSVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GLPKObjCFacade_iOS/PublicHeader.h>
+#import <GLPKObjCFacade/ObjCGLPK.h>
 
 

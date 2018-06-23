@@ -4,10 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GLPKObjCFacade_iOS.xcscheme</key>
+		<key>GLPKObjCFacade iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>GLPKObjCFacade_iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>GLPKObjCFacade_macOS.xcscheme</key>
 		<dict>

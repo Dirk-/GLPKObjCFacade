@@ -283,7 +283,6 @@
 		43D02A5C20DE8B6F000C1F7B /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 43D0288420DE8B6E000C1F7B /* zutil.c */; };
 		43D02A5D20DE8B6F000C1F7B /* zutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D0288520DE8B6E000C1F7B /* zutil.h */; };
 		43D02BA220DE9A19000C1F7B /* GLPKObjCFacade_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D02B9920DE9A19000C1F7B /* GLPKObjCFacade_iOS.framework */; };
-		43D02BA720DE9A19000C1F7B /* GLPKObjCFacade_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D02BA620DE9A19000C1F7B /* GLPKObjCFacade_iOSTests.m */; };
 		43D02BA920DE9A19000C1F7B /* GLPKObjCFacade_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D02B9B20DE9A19000C1F7B /* GLPKObjCFacade_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43D02BB020DE9A5D000C1F7B /* GLPKObjCFacade.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D020AB20DE88A5000C1F7B /* GLPKObjCFacade.h */; };
 		43D02BB120DE9A5D000C1F7B /* ObjCGLPK.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D020C320DE8911000C1F7B /* ObjCGLPK.h */; };
@@ -1130,8 +1129,6 @@
 		43D02B9B20DE9A19000C1F7B /* GLPKObjCFacade_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLPKObjCFacade_iOS.h; sourceTree = "<group>"; };
 		43D02B9C20DE9A19000C1F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43D02BA120DE9A19000C1F7B /* GLPKObjCFacade_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLPKObjCFacade_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		43D02BA620DE9A19000C1F7B /* GLPKObjCFacade_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPKObjCFacade_iOSTests.m; sourceTree = "<group>"; };
-		43D02BA820DE9A19000C1F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1175,9 +1172,8 @@
 				43D02B9220DE95A4000C1F7B /* LICENSE.md */,
 				43D020AA20DE88A5000C1F7B /* GLPKObjCFacade */,
 				43D020B520DE88A5000C1F7B /* GLPKObjCFacadeTests */,
-				43D0269D20DE8AF1000C1F7B /* GLPK */,
 				43D02B9A20DE9A19000C1F7B /* GLPKObjCFacade_iOS */,
-				43D02BA520DE9A19000C1F7B /* GLPKObjCFacade_iOSTests */,
+				43D0269D20DE8AF1000C1F7B /* GLPK */,
 				43D020A920DE88A5000C1F7B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2006,15 +2002,6 @@
 			path = GLPKObjCFacade_iOS;
 			sourceTree = "<group>";
 		};
-		43D02BA520DE9A19000C1F7B /* GLPKObjCFacade_iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				43D02BA620DE9A19000C1F7B /* GLPKObjCFacade_iOSTests.m */,
-				43D02BA820DE9A19000C1F7B /* Info.plist */,
-			);
-			path = GLPKObjCFacade_iOSTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2196,9 +2183,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		43D020A720DE88A5000C1F7B /* GLPKObjCFacade_macOS */ = {
+		43D020A720DE88A5000C1F7B /* GLPKObjCFacade macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43D020BC20DE88A5000C1F7B /* Build configuration list for PBXNativeTarget "GLPKObjCFacade_macOS" */;
+			buildConfigurationList = 43D020BC20DE88A5000C1F7B /* Build configuration list for PBXNativeTarget "GLPKObjCFacade macOS" */;
 			buildPhases = (
 				43D020A320DE88A5000C1F7B /* Sources */,
 				43D020A420DE88A5000C1F7B /* Frameworks */,
@@ -2209,7 +2196,7 @@
 			);
 			dependencies = (
 			);
-			name = GLPKObjCFacade_macOS;
+			name = "GLPKObjCFacade macOS";
 			productName = GLPKObjCFacade;
 			productReference = 43D020A820DE88A5000C1F7B /* GLPKObjCFacade_macOS.framework */;
 			productType = "com.apple.product-type.framework";
@@ -2232,9 +2219,9 @@
 			productReference = 43D020B120DE88A5000C1F7B /* GLPKObjCFacadeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		43D02B9820DE9A19000C1F7B /* GLPKObjCFacade_iOS */ = {
+		43D02B9820DE9A19000C1F7B /* GLPKObjCFacade iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43D02BAA20DE9A19000C1F7B /* Build configuration list for PBXNativeTarget "GLPKObjCFacade_iOS" */;
+			buildConfigurationList = 43D02BAA20DE9A19000C1F7B /* Build configuration list for PBXNativeTarget "GLPKObjCFacade iOS" */;
 			buildPhases = (
 				43D02B9420DE9A19000C1F7B /* Sources */,
 				43D02B9520DE9A19000C1F7B /* Frameworks */,
@@ -2245,7 +2232,7 @@
 			);
 			dependencies = (
 			);
-			name = GLPKObjCFacade_iOS;
+			name = "GLPKObjCFacade iOS";
 			productName = GLPKObjCFacade_iOS;
 			productReference = 43D02B9920DE9A19000C1F7B /* GLPKObjCFacade_iOS.framework */;
 			productType = "com.apple.product-type.framework";
@@ -2303,9 +2290,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43D020A720DE88A5000C1F7B /* GLPKObjCFacade_macOS */,
+				43D020A720DE88A5000C1F7B /* GLPKObjCFacade macOS */,
 				43D020B020DE88A5000C1F7B /* GLPKObjCFacadeTests */,
-				43D02B9820DE9A19000C1F7B /* GLPKObjCFacade_iOS */,
+				43D02B9820DE9A19000C1F7B /* GLPKObjCFacade iOS */,
 				43D02BA020DE9A19000C1F7B /* GLPKObjCFacade_iOSTests */,
 			);
 		};
@@ -2755,7 +2742,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43D02BA720DE9A19000C1F7B /* GLPKObjCFacade_iOSTests.m in Sources */,
 				43D02BB320DE9A69000C1F7B /* GLPKObjCFacadeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2765,12 +2751,12 @@
 /* Begin PBXTargetDependency section */
 		43D020B420DE88A5000C1F7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 43D020A720DE88A5000C1F7B /* GLPKObjCFacade_macOS */;
+			target = 43D020A720DE88A5000C1F7B /* GLPKObjCFacade macOS */;
 			targetProxy = 43D020B320DE88A5000C1F7B /* PBXContainerItemProxy */;
 		};
 		43D02BA420DE9A19000C1F7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 43D02B9820DE9A19000C1F7B /* GLPKObjCFacade_iOS */;
+			target = 43D02B9820DE9A19000C1F7B /* GLPKObjCFacade iOS */;
 			targetProxy = 43D02BA320DE9A19000C1F7B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2910,7 +2896,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.dirk-froehling.GLPKObjCFacade-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.dirk-froehling.GLPKObjCFacade";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 			};
@@ -2935,7 +2921,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.dirk-froehling.GLPKObjCFacade-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.dirk-froehling.GLPKObjCFacade";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 			};
@@ -2993,7 +2979,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.dirk-froehling.GLPKObjCFacade-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.dirk-froehling.GLPKObjCFacade";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3019,7 +3005,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.dirk-froehling.GLPKObjCFacade-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.dirk-froehling.GLPKObjCFacade";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -3034,7 +3020,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PZV4XW8XL7;
-				INFOPLIST_FILE = GLPKObjCFacade_iOSTests/Info.plist;
+				INFOPLIST_FILE = GLPKObjCFacade_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3054,7 +3040,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PZV4XW8XL7;
-				INFOPLIST_FILE = GLPKObjCFacade_iOSTests/Info.plist;
+				INFOPLIST_FILE = GLPKObjCFacade_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3081,7 +3067,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43D020BC20DE88A5000C1F7B /* Build configuration list for PBXNativeTarget "GLPKObjCFacade_macOS" */ = {
+		43D020BC20DE88A5000C1F7B /* Build configuration list for PBXNativeTarget "GLPKObjCFacade macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43D020BD20DE88A5000C1F7B /* Debug */,
@@ -3099,7 +3085,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43D02BAA20DE9A19000C1F7B /* Build configuration list for PBXNativeTarget "GLPKObjCFacade_iOS" */ = {
+		43D02BAA20DE9A19000C1F7B /* Build configuration list for PBXNativeTarget "GLPKObjCFacade iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43D02BAB20DE9A19000C1F7B /* Debug */,

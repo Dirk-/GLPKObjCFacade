@@ -840,6 +840,8 @@
 		43D02B8E20DE92EB000C1F7B /* xyacfs.mod */ = {isa = PBXFileReference; lastKnownFileType = text; path = xyacfs.mod; sourceTree = "<group>"; };
 		43D02B8F20DE92EB000C1F7B /* yacfs.mod */ = {isa = PBXFileReference; lastKnownFileType = text; path = yacfs.mod; sourceTree = "<group>"; };
 		43D02B9020DE92EB000C1F7B /* zebra.mod */ = {isa = PBXFileReference; lastKnownFileType = text; path = zebra.mod; sourceTree = "<group>"; };
+		43D02B9220DE95A4000C1F7B /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		43D02B9320DE95A4000C1F7B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -864,6 +866,8 @@
 		43D0209E20DE88A5000C1F7B = {
 			isa = PBXGroup;
 			children = (
+				43D02B9320DE95A4000C1F7B /* README.md */,
+				43D02B9220DE95A4000C1F7B /* LICENSE.md */,
 				43D020AA20DE88A5000C1F7B /* GLPKObjCFacade */,
 				43D020B520DE88A5000C1F7B /* GLPKObjCFacadeTests */,
 				43D0269D20DE8AF1000C1F7B /* GLPK */,

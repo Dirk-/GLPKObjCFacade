@@ -15,5 +15,6 @@ FOUNDATION_EXPORT double GLPKObjCFacadeVersionNumber;
 FOUNDATION_EXPORT const unsigned char GLPKObjCFacadeVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GLPKObjCFacade/PublicHeader.h>
+#import "ObjCGLPK.h"
 
 

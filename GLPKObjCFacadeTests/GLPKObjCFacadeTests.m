@@ -3,7 +3,11 @@
 //  GLPKObjCFacadeTests
 //
 //  Created by Dirk Fröhling on 23.06.18.
-//  Copyright © 2018 Dirk Fröhling IT-Consulting. All rights reserved.
+//  
+//  "Sometimes" this seems to cause a crash when testing. libobjc.A.dylib`objc_release: EXC_BAD_ACCESS.
+//  Sometimes it is working for the iOS target, sometimes for macOS. Seems to depend on the order of the code here.
+//  The thing is that the routines here are not part of the stack which crashes.
+//  See a probably similar problem here: https://cjwirth.com/tech/xcode-7-3-crashing
 //
 
 #import <XCTest/XCTest.h>
